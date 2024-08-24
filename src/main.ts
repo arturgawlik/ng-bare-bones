@@ -9,13 +9,11 @@ import { bootstrapApplication } from "@angular/platform-browser";
   standalone: true,
   template: `
     <h1>Hello from {{ name }}!</h1>
-    <a target="_blank" href="https://angular.dev/overview">
-      Learn more about Angular
-    </a>
+    <a target="_blank" href="https://angular.dev/overview"> :))) </a>
   `,
 })
 export class App {
-  name = "Angular";
+  name = ":)))";
 }
 
 bootstrapApplication(App, {
